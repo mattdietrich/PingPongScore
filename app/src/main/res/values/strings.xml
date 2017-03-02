@@ -5,4 +5,13 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pref_game_settings_title">Game Settings</string>
+    <string name="pref_match_settings_title">Match Settings</string>
+    <string name="pref_title_score_limit">Score Limit</string>
+    <string name="pref_title_win_by_two">Win by 2</string>
+    <string name="pref_title_match_length">Select Match Length</string>
+
 </resources>

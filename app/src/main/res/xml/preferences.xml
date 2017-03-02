@@ -1,0 +1,24 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="pref_key_game_settings"
+        android:title="@string/pref_game_settings_title">
+        <Preference
+            android:key="pref_key_score_limit"
+            android:title="@string/pref_title_score_limit" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_key_win_by_two"
+            android:title="@string/pref_title_win_by_two" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_key_match_settings"
+        android:title="@string/pref_match_settings_title">
+        <ListPreference
+            android:key="pref_key_match_length"
+            android:title="@string/pref_title_match_length"
+            android:entries="@array/array_entries_match_length"
+            android:entryValues="@array/array_entry_values_match_length"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
