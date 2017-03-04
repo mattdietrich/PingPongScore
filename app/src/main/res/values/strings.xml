@@ -13,5 +13,7 @@
     <string name="pref_title_score_limit">Score Limit</string>
     <string name="pref_title_win_by_two">Win by 2</string>
     <string name="pref_title_match_length">Select Match Length</string>
+    <string name="dialog_game_over_message">%s is the winner!</string>
+    <string name="ok">Ok</string>
 
 </resources>
