@@ -127,14 +127,15 @@ public class ScoreboardFragment extends Fragment implements View.OnClickListener
 
         // TODO: Replace with Shared Preferences (max points, win by 2)
 
-        // If no one has enough points
+        // If no one has enough points, not over
         if (players[0].getPoints() < 11 && players[1].getPoints() < 11)
             return false;
 
-        // If not winning by 2
+        // If not winning by 2, not over
         if (Math.abs(players[0].getPoints() - players[1].getPoints()) < 2)
             return false;
 
+        // Otherwise, game is over
         return true;
     }
 
